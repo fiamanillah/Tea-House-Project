@@ -7,4 +7,12 @@
     .btn-primary {
       @apply rounded-md px-5 py-3 text-sm font-semibold bg-gradient-primary text-white inline;
     }
+
+    .section {
+      @apply py-[3%] px-[5%] mx-auto max-w-screen-xl my-5;
+    }
+
+    .tea-card{
+      @apply flex flex-col items-center justify-center lg:p-[5%] p-[5%] pt-10 lg:pt-5 text-center rounded-lg bg-gradient-to-b from-slate-200 to-white lg:basis-1/4
+    }
   }
